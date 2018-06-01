@@ -79,16 +79,17 @@
 
 
 
-<meta name="description" content="A developer, like open-source, use GPL anytime.">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Relaper Crystal Blog">
-<meta property="og:url" content="http://yoursite.com/archives/2018/05/index.html">
+<meta name="description" content="Java的函数库与其他语言的函数库是不一样的，但是语法差不多。所以我就萌生了这样一个想法，用Java的函数库去尝试做其他语言的函数库能实现的东西。如果你用Java能做出来，那么就代表这个东西是通用的。  警告 如果你不是很了解其他语言的函数库和Java本身的函数库，那么推荐你不要去尝试这个。如果你不是很了解其他语言的函数库，遇到部分代码会有阻碍。  你可以使用Pull Requests来提交你的结">
+<meta property="og:type" content="article">
+<meta property="og:title" content="关于在Java上重做">
+<meta property="og:url" content="http://yoursite.com/2018/06/01/About-Try-Redo-On-Java/index.html">
 <meta property="og:site_name" content="Relaper Crystal Blog">
-<meta property="og:description" content="A developer, like open-source, use GPL anytime.">
+<meta property="og:description" content="Java的函数库与其他语言的函数库是不一样的，但是语法差不多。所以我就萌生了这样一个想法，用Java的函数库去尝试做其他语言的函数库能实现的东西。如果你用Java能做出来，那么就代表这个东西是通用的。  警告 如果你不是很了解其他语言的函数库和Java本身的函数库，那么推荐你不要去尝试这个。如果你不是很了解其他语言的函数库，遇到部分代码会有阻碍。  你可以使用Pull Requests来提交你的结">
 <meta property="og:locale" content="zh_Hans">
+<meta property="og:updated_time" content="2018-06-01T11:42:04.130Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Relaper Crystal Blog">
-<meta name="twitter:description" content="A developer, like open-source, use GPL anytime.">
+<meta name="twitter:title" content="关于在Java上重做">
+<meta name="twitter:description" content="Java的函数库与其他语言的函数库是不一样的，但是语法差不多。所以我就萌生了这样一个想法，用Java的函数库去尝试做其他语言的函数库能实现的东西。如果你用Java能做出来，那么就代表这个东西是通用的。  警告 如果你不是很了解其他语言的函数库和Java本身的函数库，那么推荐你不要去尝试这个。如果你不是很了解其他语言的函数库，遇到部分代码会有阻碍。  你可以使用Pull Requests来提交你的结">
 
 
 
@@ -118,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/archives/2018/05/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/06/01/About-Try-Redo-On-Java/"/>
 
 
 
 
 
-  <title>Archive | Relaper Crystal Blog</title>
+  <title>关于在Java上重做 | Relaper Crystal Blog</title>
   
 
 
@@ -143,7 +144,7 @@
     
   
 
-  <div class="container sidebar-position-left page-archive">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 <a href="https://github.com/RelaperCrystal"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png" alt="Fork me on GitHub"></a>
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -237,222 +238,146 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block archive">
-    <div id="posts" class="posts-collapse">
-      <span class="archive-move-on"></span>
+  <div id="posts" class="posts-expand">
+    
 
-      <span class="archive-page-counter">
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/06/01/About-Try-Redo-On-Java/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="RelaperCrystal">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Relaper Crystal Blog">
+    </span>
+
+    
+      <header class="post-header">
+
         
         
+          <h1 class="post-title" itemprop="name headline">关于在Java上重做</h1>
         
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-06-01T19:36:01+08:00">
+                2018-06-01
+              </time>
+            
+
+            
+
+            
+          </span>
+
           
-        
-        Um..! 6 posts in total. Keep on posting.
-      </span>
 
-      
-
-        
-        
-        
-
-        
           
-          <div class="collection-title">
-            <h1 class="archive-year" id="archive-year-2018">2018</h1>
-          </div>
-        
-        
+            
+          
 
-        
+          
+          
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+          
 
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2018/05/28/末扯-2-松原地震/" itemprop="url">
-              
-                <span itemprop="name">末扯#2-松原地震</span>
-              
-            </a>
-        
-      </h2>
+          
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-05-28T10:26:51+08:00"
-              content="2018-05-28" >
-          05-28
-        </time>
-      </div>
+          
 
-    </header>
-  </article>
+        </div>
+      </header>
+    
 
-
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2018/05/24/这个直播间有人仿佛没了锡望/" itemprop="url">
-              
-                <span itemprop="name">这个直播间有人仿佛没了锡望</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-05-24T20:57:00+08:00"
-              content="2018-05-24" >
-          05-24
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
       
 
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2018/05/20/对易语言的一些看法/" itemprop="url">
-              
-                <span itemprop="name">对易语言的一些看法</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-05-20T12:51:55+08:00"
-              content="2018-05-20" >
-          05-20
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
+      
+        <p>Java的函数库与其他语言的函数库是不一样的，但是语法差不多。所以我就萌生了这样一个想法，用Java的函数库去尝试做其他语言的函数库能实现的东西。如果你用Java能做出来，那么就代表这个东西是通用的。</p>
+<blockquote>
+<p><strong>警告</strong></p>
+<p>如果你不是很了解其他语言的函数库和Java本身的函数库，那么推荐你不要去尝试这个。如果你不是很了解其他语言的函数库，遇到部分代码会有阻碍。</p>
+</blockquote>
+<p>你可以使用Pull Requests来提交你的结果，我会去看的，但是我有些时候不会上Github，所以也就这样了。</p>
 
       
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2018/05/20/blog/" itemprop="url">
-              
-                <span itemprop="name">blog</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-05-20T11:42:10+08:00"
-              content="2018-05-20" >
-          05-20
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-      
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2018/05/20/hello-world/" itemprop="url">
-              
-                <span itemprop="name">Hexo教程</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-05-20T11:28:16+08:00"
-              content="2018-05-20" >
-          05-20
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-      
-
     </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/05/28/末扯-2-松原地震/" rel="next" title="末扯#2-松原地震">
+                <i class="fa fa-chevron-left"></i> 末扯#2-松原地震
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -460,6 +385,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -682,6 +611,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
