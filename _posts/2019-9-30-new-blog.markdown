@@ -1,0 +1,12 @@
+---
+layout: post
+title: "新的博客"
+description: 新的博客计划
+date: 2019-09-30 14:42:15
+categories: Javascript NodeJS
+---
+
+刚刚去网上搜了一下，找到了一个 texture 的主题。
+
+我觉得这个还蛮好看的，于是就选这个了。以后的博客就会选择使用 Jeykll 作为基础了。
+
